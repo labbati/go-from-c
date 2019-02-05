@@ -1,17 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-
-#include "lamath.h"
+#include "labbamath.h"
 
 int main(int argc, char **argv) {
+
     char *err;
     GoUint sum;
-
-    if (argc < 2) {
-        fprintf(stderr, "missing argument\n");
-        return 1;
-    }
 
     err = Add(1, 2, &sum);
 
