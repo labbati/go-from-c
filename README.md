@@ -2,6 +2,10 @@
 
 This just me trying to understand better how C and Go can interact and work together.
 
-## Run the example
+## Usage
 
+Run the example:
     $ make
+
+Clear the generated files:
+    $ make clear
