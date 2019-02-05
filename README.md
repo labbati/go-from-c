@@ -1,6 +1,7 @@
-In Go land:
-    $ go build -o golibrary.so -buildmode=c-shared golibrary.go
+## What is this about?
 
-In C land:
-    $ clang -o executable main.c -L. golibrary.so
-    $ ./executable
+This just me trying to understand better how C and Go can interact and work together.
+
+## Run the example
+
+    $ make
